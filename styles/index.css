@@ -160,8 +160,52 @@ nav ul{
 .run-description{
     margin-bottom: 20px;
 }
-
-
+.exercise-pic{
+   display:flex;
+   justify-content: center;
+   margin-right: 5%;
+   margin-left: 5%;
+   
+   
+    
+}
+.exercise-pic2{
+    display: flex;
+    justify-content: center;
+    margin-right: 5%;
+   margin-left: 5%;
+}
+.image1{
+    height: 300px;
+    width: 25%;
+    filter: sepia(100%) hue-rotate(200deg) saturate(2);
+    
+}
+.image2{
+    height: 300px;
+    width: 35%;
+    filter: sepia(1) saturate(2) hue-rotate(-50deg);
+}
+.image3{
+    height: 300px;
+    width: 25%;
+    filter: grayscale(100%);
+}
+.image4{
+    height: 300px;
+    width: 35%;
+    filter: brightness(80%) contrast(100%);
+}
+.image5{
+    height: 300px;
+    width: 20%;
+    filter: sepia(1) saturate(5) hue-rotate(100deg) brightness(1.2);
+}
+.image6{
+    height: 300px;
+    width: 30%;
+    filter: sepia(0.6) saturate(2) hue-rotate(280deg) brightness(1);
+}
 
 
 
